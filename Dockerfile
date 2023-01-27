@@ -16,4 +16,4 @@ RUN poetry install
 EXPOSE 8000
 
 # Run the command to start the application
-CMD ["poetry", "run", "python", "oldmain.py"]
+CMD ["poetry", "run", "python", "main.py"]
