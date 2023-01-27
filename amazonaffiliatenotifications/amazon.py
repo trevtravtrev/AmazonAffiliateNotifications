@@ -49,59 +49,6 @@ def parse(webpage_text):
 
 
 if __name__ == '__main__':
-    # test_webpage_data = """Idea Hub Today's deals: every amazing deal live right now. See them all
-    # Store: pluggrr-20English - EN  United States
-    # contactpluggrr@gmail.com
-    # 5+
-    # HomeProduct LinkingPromotionsTools
-    # Reports
-    # Help
-    # ‹ Go to consolidated summary reports
-    # Reports
-    # HelpFeedbackDownload ReportsPayment HistoryCommission Schedule
-    # Jan 26 2023 / Today Tracking ID: All Last Updated: Jan 25 2023 +00:00
-    # Summary
-    # Earnings not available for Today
-    # Commissions
-    # Only Orders data available for Today
-    # Bounties
-    # Today's Orders Jan 26 2023
-    # 1REESE'S Milk Chocolate and Peanut Butter Snack Size Cups Candy, Gluten Free, Individually Wrapped, Pantry Pack, 0.55 oz Packs (25 Count)
-    # Grocery & Gourmet Food	Amazon.com	2	pluggrr-20	$5.88
-    # 2Olaplex No.5 Bond Maintenance Conditioner, 8.5 Fl Oz
-    # Luxury Beauty	Amazon.com	1	pluggrr-20	$15.00
-    # 3Olaplex No.5 Bond Maintenance Conditioner, 8.5 Fl Oz
-    # Luxury Beauty	Amazon.com	1	pluggrr-20	$15.00
-    # 4Reese's Puffs Breakfast Cereal Treat Bars, Peanut Butter & Cocoa, 16 ct
-    # Grocery & Gourmet Food	Amazon.com	1	pluggrr-20	$5.23
-    # (Showing 1 - 4 Items)
-    # Notes
-    # Kindle E-Books EarningsYou have referred 0 Kindle Free E-books and 0 Kindle Paid E-Books. Per our operating agreement, certain conditions may cause non payment of advertising fees. Learn More. Transactions Ineligible for FeesPer our operating agreement, certain conditions and exclusions exist that may cause a purchase through a link to not earn advertising fees. Learn More.
-    # What do you think?
-    #
-    # Do you have a suggestion or comment about Associates Central website? Let us know.
-    #
-    # Learn More
-    # Commission Income
-    # Resource Center
-    # Amazon Trade-in Program
-    # AbeBooks.com
-    # Reporting
-    # Customer Support
-    # Help
-    # Performance Tips
-    # Excluded Products
-    # Glossary
-    # Contact Us
-    # Legal
-    # Conditions of Use
-    # Privacy Notice
-    # Operating Agreement
-    # Follow Us
-    # YouTube
-    # Facebook
-    # LinkedIn
-    # © 1996-2022, Amazon.com, Inc."""
     webpage_text = scrape()
     parsed_data = parse(webpage_text)
     print(parsed_data)
